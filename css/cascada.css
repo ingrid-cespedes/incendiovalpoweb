@@ -5,7 +5,7 @@ body{
 }
 header{
 	max-width: 100%;
-	height: 15%;
+	height: 40%;
 	margin: 0 auto;
 	padding-bottom: 3px;
 
@@ -28,35 +28,35 @@ header{
  	list-style: none;
  	display:inline-block;
  	padding: 0 0%;
- 	margin:0 0 0 10%;
+ 	margin:0 0% 0 9.5%;
  	z-index: 1;
  	
  	
 }
-#nav ul li a {
+#nav ul li a{
 	font-family: 'Open Sans', 'sans-serif';
- 	font-weight:400; 
- 	font-size: 16px;
- 	color: rgba(10,10,10.4);
+ 	font-weight:bold 700; 
+ 	font-size: 14px;
+ 	color: black;
  	text-decoration: none;
-
+	z-index: 1;
+	text-transform: uppercase;
 }
-ul li a p:hover{
-	color:#8A0829;
+#nav ul li a:hover{
+	color:#BDBDBD;
 	
 }
 
 .color1{
 	width: 100%;
-	height: 700px;
-	
-	border:solid 1px black;
+	height: 800px;
+	border:solid 1px #BDBDBD;
 }
 .color2{
 	width: 100%;
-	height: 700px;
+	height: 800px;
 	background-color:rgba(20,20,10,.1);
-	border:solid 1px black;
+	border:solid 1px #BDBDBD;
 }
 
 .contenedor{
@@ -66,27 +66,27 @@ ul li a p:hover{
 }
 .intro{
 	width: 960px;
-	height: 700px;
+	height: 800px;
 	margin: 0 auto;
-	border:solid 1px black;
+	border:solid 1px #BDBDBD;
 }
 .concurso{
 	width: 960px;
-	height: 700px;
+	height: 800px;
 	margin: 0 auto;
-	border:solid 1px black;
+	border:solid 1px #BDBDBD;
 }
 .formulario{
 	width: 960px;
-	height: 700px;
+	height: 800px;
 	margin: 0 auto;
-	border:solid 1px black;
+	border:solid 1px #BDBDBD;
 }
 .galeria{
 	width: 960px;
-	height: 700px;
+	height: 800px;
 	margin: 0 auto;
-	border:solid 1px black;
+	border:solid 1px #BDBDBD;
 }
 
 footer{
@@ -160,11 +160,11 @@ p{
 .flotarderecha{
 	width: 510px;
 	height: 600px;
-	float: right;
+	left: 415px;
 	position: relative;
-	top:100px;
+	top:-100px;
 	padding:0 15px;
-  border:solid 1px black;
+  	border:solid 1px black;
 }
 
 /**área del FORMULARIO**/
@@ -311,9 +311,35 @@ p{
 	.galeria{
 		width: 90%;
 	}
+	span.h1{
+  		font-size: 25px;
+  		letter-spacing: 6px;
+		}
+
+	span.h2{
+		font-size: 25px;
+  		letter-spacing: 5px;
+	}
+	h3{
+	  font-weight: 300;
+	  font-size: 14px;
+	  line-height: 15px;
+	}
+	.flotarderecha{
+	width: 320px;
+	height: 600px;
+	float: center;
+	padding:0 0px;
+  	border:solid 1px black;
+	}
+	.cita{
+	width: 320px;
+  	font-size: 11px;
+}
 	footer{
 		width:100%;
 	}
+
 }
 
 
