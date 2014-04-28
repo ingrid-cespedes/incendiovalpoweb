@@ -1,0 +1,354 @@
+body{
+	height: auto;
+	margin: 0px;
+	padding: 0px;
+}
+header{
+	max-width: 100%;
+	height:130px;
+	margin: 0 auto;
+	padding-bottom: 3px;
+}
+
+#nav{
+	background-image: url(../img/escalera.png);
+	width: 100%;
+	height: 18%;
+	margin: 0% auto;
+	padding-left:24%;
+	background-color:#1F1E1D;
+	position: fixed;
+	z-index: 1;
+	box-shadow: 0 1px 2px rgba(0,0,0,.8);
+}
+
+#nav ul li{
+	margin:0 auto;
+ 	list-style: none;
+ 	display:inline-block;
+ 	padding: 3% 0;
+ 	margin:0 0% 0 5%;
+ 	z-index: 1;
+ 	
+ 	
+}
+#nav ul li a{
+	font-family: 'Open Sans', 'sans-serif';
+ 	font-weight:bold 700; 
+ 	font-size: 13px;
+ 	color:rgb(222,103,7);
+ 	text-decoration: none;
+	z-index: 1;
+	text-transform: uppercase;
+}
+#nav ul li a:hover{
+	color:#BDBDBD;
+	
+}
+
+.color1{
+	width: 100%;
+	height: 800px;
+}
+.color2{
+	width: 100%;
+	height: 800px;
+	background-color:rgba(0,0,0,.8);
+	background-image: url(../img/casa1.png);
+}
+
+.contenedor{
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+}
+.intro{
+	width: 960px;
+	height: 800px;
+	margin: 0 auto;
+}
+.concurso{
+	width: 960px;
+	height: 800px;
+	margin: 0 auto;
+}
+.formulario{
+	width: 960px;
+	height: 800px;
+	margin: 0 auto;
+}
+.galeria{
+	width: 960px;
+	height: 800px;
+	margin: 0 auto;
+}
+
+footer{
+	width: 100%;
+	height:200px;
+	
+}
+/**h1{
+  font-family: 'Open Sans', 'sans-serif';
+  font-weight:400; 
+  text-transform: uppercase;
+  font-size: 50px;
+  letter-spacing: 15px;
+  display: inline-block;
+  margin-top: 10%;
+  width: 400px;
+  border:solid 1px black;
+  text-align: center;
+}**/
+
+h3{
+  font-family: 'Open Sans', 'sans-serif';
+  font-weight: 300;
+  font-size: 20px;
+  margin: 0px;
+  line-height: 50px;
+  margin-top: 15%;
+  display: inline-block;
+  color:rgb(222,103,7);
+}
+span.h1{
+  font-family: 'Open Sans', 'sans-serif';
+  font-weight:400; 
+  text-transform: uppercase;
+  font-size: 48px;
+  letter-spacing: 10px;
+  width: 400px;
+  color: #000;
+}
+span.h2{
+  font-family: 'Open Sans', 'sans-serif';
+  font-weight:300; 
+  text-transform: uppercase;
+  font-size: 48px;
+  letter-spacing: 10px;
+  width: 300px;
+  color:#fff;
+}
+
+h4{
+  font-family: 'Open Sans', 'sans-serif';
+  font-weight: 400;
+  font-size: 16px;
+  padding-top: 30px;
+}
+
+p{
+  font-family: 'Open Sans', 'sans-serif';
+  font-weight: 400;
+  font-size: 13px;
+  text-align: justify;
+}
+.cita{
+	width: 480px;
+	height: 400px;
+	margin:0 auto;
+	font-family: 'Open Sans', 'sans-serif';
+  	font-weight: 400;
+  	font-size: 12px;
+}
+
+.flotarderecha{
+	width: 510px;
+	height: 600px;
+	left: 415px;
+	position: relative;
+	top:-100px;
+	padding:0 15px;
+}
+.flotarderecha2{
+	width: 510px;
+	height: 600px;
+	left: 415px;
+	position: relative;
+	top:-100px;
+	padding:0 15px;
+}
+.flotarderecha2 h4 {
+	color: #fff;
+}
+.flotarderecha2 p{
+	color: #fff;
+}
+
+/**área del FORMULARIO**/
+/**para los ul li del formulario**/
+.contactform ul{
+	width: 500px;
+	list-style-type: none;
+	margin: 0px;
+	padding:0px;
+}
+.contactform ul{
+	padding: 12px;
+	position: relative;
+}
+.contactform label{
+	color:#555555;
+	display:inline-block;
+	float: left;
+	font-family: 'Open Sans', 'sans-serif';
+  	font-weight:700;
+  	font-size: 14px;
+  	margin-top: 5px;
+  	padding: 4px;
+  	width: 250px;
+}
+.contactform input{
+	height: 15px;
+	width: 250px;
+	padding: 5px 10px;
+	margin-top: 10px;
+}
+
+.contactform textarea{
+	padding: 8px;
+	width: 300px;
+	font-family: 'Open Sans', 'sans-serif';
+}
+
+.contactform button{
+	margin-left: 285px;
+}
+.contactform select {
+   height: 30px;
+	width: 290px;
+	padding: 5px 10px;
+	margin-top: 10px;
+}
+.contactform select option {
+	color:#888;
+	font-size:13px; 
+}
+.contactform input, .contactform textarea, .contactform select{
+	border: 1px solid #aaa;
+	box-shadow: 0px 0px 3px #ccc, 0 2px 2px #eee inset;
+	color:#888;
+	font-size:13px;
+	padding-right: 30px;
+	-moz-transition:padding .25s;
+	-web-kit- transition:padding .25s;
+	-0-kit- transition:padding .25s;
+	-e- transition:padding .25s;
+	transition:padding .25s;
+}
+
+.contactform input:focus, .contactform textarea:focus , .contactform select :focus{
+	background: #fff;
+	border:1px solid #555;
+	box-shadow: 0 0 7px #aaa;
+	padding-right: 80px;
+}
+
+/** estilo de validaciòn**/
+
+
+ /**Estilo botón de envio**/
+ button.submmit{
+ 	padding: 9px 17px;
+ 	font-family: 'Open Sans', 'sans-serif';
+  	font-weight:700;
+  	font-size: 12px;
+  	color:·#eee;
+  	border: none;
+  	text-shadow:0 1px 1px rgba(255,255,255,0.85);
+ 	background-image: -webkit-gradient(line, 0% 0%,0% 100%,from (#fff), to(#bbb));
+ 	background-image: -moz-linear-gradient(l 0% 100% 90deg,#bbbbbb, #ffffff);
+ 	background-color: #fff;
+ }
+ button.submit:hover{
+ 	opacity: .55;
+ 	cursor: pointer;
+ 	color: #fff;
+ }
+  button.submit:active{
+  	border:1px solid #222;
+  	box-shadow: 0 0 10px 5px #444 inset;
+  }
+
+@media screen and (max-width: 768px) {
+	
+	#nav{
+		width:768px;
+		height: 8%;
+	}
+	#nav ul li{
+		margin:0 0 0 6%;
+	}
+	.contenedor{
+	width:100%;
+	}
+	.intro{
+		width: 78%;
+	}
+	.concurso{
+		width: 78%;
+	}
+	.formulario{
+		width: 78%;
+	}
+	.galeria{
+		width: 78%;
+	}
+	footer{
+		width:100%;
+	}
+}
+
+@media screen and (max-width: 360px) {
+	#nav{
+		width:100%;
+		height: 7%;
+	}
+	#nav ul li{
+		margin:0 0 0 6%;
+	}
+	.intro{
+		width: 90%;
+	}
+	.concurso{
+		width: 90%;
+	}
+	.formulario{
+		width: 90%;
+	}
+	.galeria{
+		width: 90%;
+	}
+	span.h1{
+  		font-size: 25px;
+  		letter-spacing: 6px;
+		}
+
+	span.h2{
+		font-size: 25px;
+  		letter-spacing: 5px;
+	}
+	h3{
+	  font-weight: 300;
+	  font-size: 14px;
+	  line-height: 15px;
+	}
+	.flotarderecha{
+	width: 320px;
+	height: 600px;
+	float: center;
+	padding:0 0px;
+  	border:solid 1px black;
+	}
+	.cita{
+	width: 320px;
+  	font-size: 11px;
+}
+	footer{
+		width:100%;
+	}
+
+}
+
+
+
