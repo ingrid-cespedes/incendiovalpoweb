@@ -11,7 +11,7 @@ header{
 }
 
 #nav{
-	background-image: url(../img/escalera.png);
+	background-image: url(../img/techo2.jpg);
 	width: 100%;
 	height: 18%;
 	margin: 0% auto;
@@ -34,9 +34,9 @@ header{
 }
 #nav ul li a{
 	font-family: 'Open Sans', 'sans-serif';
- 	font-weight:bold 700; 
+ 	font-weight:300; 
  	font-size: 13px;
- 	color:rgb(222,103,7);
+ 	color:#FE9A2E;
  	text-decoration: none;
 	z-index: 1;
 	text-transform: uppercase;
@@ -49,12 +49,14 @@ header{
 .color1{
 	width: 100%;
 	height: 800px;
+	margin: 0 0 0 0;
 }
 .color2{
 	width: 100%;
 	height: 800px;
 	background-color:rgba(0,0,0,.8);
-	background-image: url(../img/casa1.png);
+	background-image: url();
+	margin: 0 0 0 0;
 }
 
 .contenedor{
@@ -109,7 +111,7 @@ h3{
   line-height: 50px;
   margin-top: 15%;
   display: inline-block;
-  color:rgb(222,103,7);
+  color:#FE9A2E;
 }
 span.h1{
   font-family: 'Open Sans', 'sans-serif';
@@ -139,7 +141,7 @@ h4{
 
 p{
   font-family: 'Open Sans', 'sans-serif';
-  font-weight: 400;
+  font-weight: 300;
   font-size: 13px;
   text-align: justify;
 }
@@ -207,7 +209,7 @@ p{
 
 .contactform textarea{
 	padding: 8px;
-	width: 300px;
+	min-width: 300px;
 	font-family: 'Open Sans', 'sans-serif';
 }
 
@@ -224,7 +226,20 @@ p{
 	color:#888;
 	font-size:13px; 
 }
-.contactform input, .contactform textarea, .contactform select{
+.contactform select{
+	border: 1px solid #aaa;
+	box-shadow: 0px 0px 3px #ccc, 0 2px 2px #eee inset;
+	color:#888;
+	font-size:13px;
+	padding-right: 5px;
+	-moz-transition:padding .25s;
+	-web-kit- transition:padding .25s;
+	-0-kit- transition:padding .25s;
+	-e- transition:padding .25s;
+	transition:padding .25s;
+}
+
+.contactform input, .contactform textarea{
 	border: 1px solid #aaa;
 	box-shadow: 0px 0px 3px #ccc, 0 2px 2px #eee inset;
 	color:#888;
@@ -338,7 +353,6 @@ p{
 	height: 600px;
 	float: center;
 	padding:0 0px;
-  	border:solid 1px black;
 	}
 	.cita{
 	width: 320px;
